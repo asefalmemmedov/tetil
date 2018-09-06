@@ -1,0 +1,70 @@
+
+.row{
+    width:100%;
+}
+.container{
+    width:calc(100% - 400px);
+    /* width: 1200px; */
+    margin:0 auto;
+}
+
+.padding{
+    padding:10px;
+}
+.margin{
+    margin:0px 10px;
+}
+/* .border{
+    border:1px solid gray;
+} */
+.pull-left{
+    float:left;
+}
+.pull-right{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+
+[class^="col-"] {
+    float: left;
+    margin:10px;
+    border: 1px solid black;
+}
+.col-1 {
+    width: calc(100%/12*1 - 22px);
+}
+.col-2 {
+    width: calc(100%/12*2 - 22px);
+}
+.col-3 {
+    width: calc(100%/12*3 - 22px);
+}
+.col-4 {
+    width: calc(100%/12*4 - 22px);
+}
+.col-5 {
+    width: calc(100%/12*5 - 22px);
+}
+.col-6 {
+    width: calc(100%/12*6 - 22px);
+}
+.col-7 {
+    width: calc(100%/12*7 - 22px);
+}
+.col-8 {
+    width: calc(100%/12*8 - 22px);
+}
+.col-9 {
+    width: calc(100%/12*9 - 22px);
+}
+.col-10 {
+    width: calc(100%/12*10 - 22px);
+}
+.col-11 {
+    width: calc(100%/12*11 - 22px);
+}
+.col-12 {
+    width: calc(100%/12*12 - 22px);
+}

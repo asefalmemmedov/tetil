@@ -1,0 +1,255 @@
+body{
+    width: 100%;
+    
+}
+
+/* basliq hissesi */
+.social{ 
+    width: 100%; 
+    height:60px ;
+    background-color:#F5F5F5;
+}
+.social ul li a:link{
+padding: 0px 5px;
+
+}
+.social p{
+    text-align: center;
+    font-size: 1em;
+    color: #888888;
+}
+/* nav bar */
+.nav-bar{
+    width: 100%;
+    background-color: white;
+    
+}
+.logo {
+   
+}
+/* .nav-bar li{
+    font-size: 1.1em;
+    color: black;
+    text-align: center;
+    padding-left: 20px;
+    text-decoration: none;
+} */
+.nav-bar ul{
+    text-align: center;
+    font-size: 1.3em;
+    padding-left: 50px;
+
+
+}
+.nav-bar ul li {
+    /* float: left; */
+    display: inline-block;
+    padding-left: 20px;
+}
+.nav-bar ul li a{
+    color: #A9A9A9;
+    text-decoration: none;    
+}
+/* slider */
+.slider{
+    width: 100%;
+    height:550px ;
+    background:url(images/slide1.jpg) center center no-repeat;
+    background-size:cover;
+}
+.slider p{
+    text-align: center;
+    font-size: 1.2em;
+    top:50px;
+    padding-top: 100px;
+}
+.shop{
+    width: 100%;
+}
+.shop p{
+        padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    
+} 
+.shop img{
+    transition: .8s;
+    width: 100%;
+    height: 350px;
+}
+.img1{
+    transition: .8s;
+    overflow: hidden;
+}
+.img1 img:hover{
+    transition: .8s;
+    transform: scale(1.1);
+}
+/* blog */
+.blog{
+    width: 100%;
+
+}
+.blog p{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 50px 0px;
+}
+.blog img{
+    width: 100%;
+}
+/* endirim */
+.endirim :hover{
+    width: 100%;
+    background-color: rgb(27, 105, 105);
+}
+.endirim img{
+    width: 100%;
+    
+}
+.endirim time{
+    border: 1px solid black;
+    width: 100%;
+    height: 30px;
+}
+
+/* fllow */
+.follow{
+    width: 100%;
+}
+.fllow p{
+    text-align: center;
+}
+.fllow img{
+    width: 100%;
+    background: cover;
+}
+.colspec{
+    overflow: hidden;
+    width: 20%;
+    float: left;
+ 
+    position: relative;
+    
+    height:293px;
+    background: hotpink;
+}
+.colspec img{
+    width: 100%;
+}
+.colspec h4{
+    transition: .7s;
+    left: 30;
+    bottom: -40;
+    position: absolute;
+    z-index: 10;
+}
+.overlay{
+ 
+    transition: .7s;
+    width: 100%;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.514);
+    position: absolute;
+    top: 0;
+    height:293px;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.overlay:hover h4{
+    color: white;
+    bottom: 30px;
+    left: 30px;
+}
+/* zamanet */
+.zamanet{
+    width: 100%;
+    height:350px ;
+}
+.zamanet h1{
+    text-align: center;
+    font-size: 1.3em;
+    color: rgb(172, 167, 167);
+    padding-top: 30px;
+}
+.zamanet p{
+    text-align: center;
+    font-size: 1.1em;
+    color: rgb(172, 167, 167);
+}
+
+/* #qalery{
+    height: 1000px;
+} */
+#qalery a{
+    width: 100px;
+    height:50px ;
+    background-color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 150px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.qaleri1{
+    
+    width: 354px;
+    overflow: hidden;
+    position: relative;
+    height:400px;
+}
+
+
+.qaleri1 img{
+    height: 100%;
+    transition: .8s;
+    width: 100%;
+}
+.qaleri1 img:hover{
+    transform: scale(1.1)
+}
+
+.qaleri2{
+    height: 250px;
+}
+.qaleri2{
+    
+    width: 354px;
+    overflow: hidden;
+    position: relative;
+    height:250px;
+}
+
+
+.qaleri2 img{
+    height: 100%;
+    transition: .8s;
+    width: 100%;
+}
+.qaleri2 img:hover{
+    transform: scale(1.1)
+}
+/*  */
+.yazi{
+    height:50px;
+    width: 100%;
+    background: rgb(238, 236, 236);
+    text-align: center;
+    padding: 100px 0px;
+    
+}
+/*footer  */
+
+.footer{
+    width: 100%;
+}
+.footer h1{
+    padding-top: 25px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.footer p{
+    text-align: center;
+}
